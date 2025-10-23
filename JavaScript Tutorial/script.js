@@ -290,7 +290,13 @@ x = arrItems.splice(0, 3)
 const fruits = ['mango', 'banana', 'apple']
 const berries = ['strawberry', 'blueberry', 'blackberry']
 
-fruits.push(berries)
-x = fruits[3][0]
+// fruits.push(berries)
+// x = fruits[3][0]
 
+
+// concat method
+const phone = ['Iphone', 'Samsung', 'Tecno']
+const cars = ['Honda', 'Toyota', 'Benz']
+x = phone.concat(cars)
+x = fruits.concat(berries)
 console.log(x)
